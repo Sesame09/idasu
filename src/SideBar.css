@@ -1,0 +1,73 @@
+@font-face {
+  font-family: 'HakgyoansimWoojuR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.SideBar {
+  display: grid;
+  grid-template-rows: 264px 1fr 114px;
+  justify-items: center;
+
+  width: 300px;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+  font-family: 'HakgyoansimWoojuR';
+  font-size: 16px;
+
+  background-color: #ffffff;
+  box-shadow: 2px 0px 7px rgba(0, 0, 0, 0.05);
+}
+
+.main-logo {
+  display: flex;
+  justify-content: center;
+
+  width: 300px;
+  height: 128px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.pages {
+  width: 300px;
+  display: flex;
+  padding-top: 37px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.icons {
+  width: 300px;
+  height: 114px;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.icons-helper {
+  width: 208px;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.logo-img {
+  width: 172px;
+  height: 128px;
+}
+
+.icon-img {
+  width: 24px;
+  height: 24px;
+}
+
+.NavLink {
+  margin-bottom: 45px;
+  text-decoration: none;
+}

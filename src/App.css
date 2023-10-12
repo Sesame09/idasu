@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'HakgyoansimWoojuR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.App {
+  @media (min-width: 1201px) {
+    margin-left: 300px;
+    text-align: center;
+
+    .SideBar {
+      display: grid;
+    }
+    .Top {
+      display: none;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    margin-left: 0;
+
+    .SideBar {
+      display: none;
+    }
+    .Top {
+      display: grid;
+    }
+  }
+}
+
+

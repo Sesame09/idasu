@@ -1,0 +1,68 @@
+.image-background {
+  position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 100;
+}
+
+.image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  transform: translate(0, 0);
+  width: 100%;
+  height: 100%;
+}
+
+
+.image-viewer {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+.thumbnail {
+  max-width: 100%;
+  max-height: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.nav-button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+
+.previous {
+  left: 20px;
+  transition: 0.3s;
+}
+
+.next {
+  right: 20px;
+  transition: 0.3s;
+}
+
+.close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.close:hover, .previous:hover, .next:hover {
+  filter: brightness(1.4);
+}

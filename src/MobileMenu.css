@@ -1,0 +1,105 @@
+@font-face {
+  font-family: 'HakgyoansimWoojuR';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/HakgyoansimWoojuR.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.modal-container {
+  position: fixed;
+  top: 0;
+  right: -500px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999; /* 모달을 다른 요소 위에 레이어드 */
+}
+
+.modal {
+  /* 초기 스타일 */
+  position: fixed;
+  right: -300px; /* 모달을 오른쪽으로 숨김 */
+  top: 0;
+  height: 100%;
+  width: 300px;
+  background-color: white;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: right 0.3s ease-in-out; /* 오른쪽으로 슬라이딩하는 트랜지션 */
+}
+.modal-background {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7); /* 70% 투명 검은 배경 */
+}
+
+.modal.open {
+  /* 모달이 나타날 때의 스타일 */
+  right: 0;
+}
+
+/* isOpen 상태에 따라 모달 슬라이드 인 애니메이션을 추가합니다. */
+.modal.slide-in {
+  animation: slideIn 0.3s ease-in-out;
+}
+
+/* 모달 슬라이드 아웃 애니메이션 */
+.modal.slide-out {
+  animation: slideOut 0.3s ease-in-out;
+}
+
+@keyframes slideIn {
+  from {
+    right: -300px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+@keyframes slideOut {
+  from {
+    right: 0;
+  }
+  to {
+    right: -300px;
+  }
+}
+
+.links a:visited {
+  color: #304865;
+}
+
+a:-webkit-any-link {
+  text-decoration: none;
+}
+
+.links {
+  display: flex;
+  padding-top: 96px;
+  padding-left: 20px;
+  flex-direction: column;
+
+  font-family: 'HakgyoansimWoojuR';
+  font-size: 16px;
+  color: #304865;
+}
+
+.link {
+  margin-bottom: 20px;
+}
+
+.x-img {
+  float: right;
+  margin-top: 28px;
+  margin-right: 28px;
+}
+
+
+
+
