@@ -5,7 +5,7 @@
   font-style: normal;
 }
 
-@media (min-width: 751px) {
+@media (min-width: 901px) {
 
     
 
@@ -154,7 +154,7 @@
 
 
 
-@media (max-width: 750px) {
+@media (max-width: 900px) {
         
 
   .sparkle-title {
