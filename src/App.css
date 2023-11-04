@@ -5,30 +5,43 @@
   font-style: normal;
 }
 
+
+body {
+  font-family: 'HakgyoansimWoojuR', sans-serif;
+}
+
+.App .SideBar {
+  display: none;
+}
+
+.App .Top {
+  display: grid;
+}
+
 @media (min-width: 769px) {
   .App {
     margin-left: 300px;
     text-align: center;
   }
-  .SideBar {
+  .App .SideBar {
     display: grid;
   }
-  .Top {
+  .App .Top {
     display: none;
   }
-  }
+}
 
- @media (max-width: 768px) {
+@media (max-width: 768px) {
   .App {
     margin-left: 0;
   }
-  .SideBar {
+  .App .SideBar {
     display: none;
   }
-  .Top {
+  .App .Top {
     display: grid;
   }
-  }
+}
 
 
 
