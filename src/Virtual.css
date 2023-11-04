@@ -5,7 +5,7 @@
   font-style: normal;
 }
 
-@media (min-width: 601px) {
+@media all and (min-width: 769px) {
 
     
 
@@ -154,7 +154,7 @@
 
 
 
-@media (max-width: 600px) {
+@media all and (max-width: 768px) {
         
 
   .sparkle-title {
@@ -315,7 +315,7 @@
   }
 }
 
-@media (min-width: 1351px) {
+@media all and (min-width: 1351px) {
 
   .Virtual {
     display: flex;
@@ -340,7 +340,7 @@
   }
 }
 
-@media (max-width: 1350px) {
+@media all and (max-width: 1350px) {
   .Virtual {
     display: flex;
     flex-direction: column;

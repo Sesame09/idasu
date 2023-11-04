@@ -5,29 +5,30 @@
   font-style: normal;
 }
 
-.App {
-  @media (min-width: 601px) {
+@media all and (min-width: 769px) {
+  .App {
     margin-left: 300px;
     text-align: center;
-
-    .SideBar {
-      display: grid;
-    }
-    .Top {
-      display: none;
-    }
+  }
+  .SideBar {
+    display: grid;
+  }
+  .Top {
+    display: none;
+  }
   }
 
-  @media (max-width: 600px) {
+ @media all and (max-width: 768px) {
+  .App {
     margin-left: 0;
-
-    .SideBar {
-      display: none;
-    }
-    .Top {
-      display: grid;
-    }
   }
-}
+  .SideBar {
+    display: none;
+  }
+  .Top {
+    display: grid;
+  }
+  }
+
 
 
