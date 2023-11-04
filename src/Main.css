@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-@media (min-width: 901px) {
+@media (min-width: 601px) {
   * {
     color: #304865;
   }
@@ -258,7 +258,7 @@
 
 } */
 
-@media (max-width: 900px) {
+@media (max-width: 600px) {
   Main {
     color: #304865;
     align-items: center;
