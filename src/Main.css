@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-@media (min-width: 1201px) {
+/* @media (min-width: 751px) {
   * {
     color: #304865;
   }
@@ -256,7 +256,7 @@
     padding-top: 20px;
   }
 
-}
+} */
 
 @media (max-width: 750px) {
   Main {
