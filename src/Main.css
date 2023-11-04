@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-/* @media (min-width: 751px) {
+@media (min-width: 751px) {
   * {
     color: #304865;
   }
@@ -139,7 +139,7 @@
 
 }
 
-@media (min-width: 751px) and (max-width: 1200px) {
+/* @media (min-width: 751px) and (max-width: 1200px) {
   * {
     color: #304865;
   }
