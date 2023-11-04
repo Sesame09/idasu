@@ -10,14 +10,6 @@ body {
   font-family: 'HakgyoansimWoojuR';
 }
 
-.App .SideBar {
-  display: none;
-}
-
-.App .Top {
-  display: grid;
-}
-
 @media (min-width: 769px) {
   .App {
     margin-left: 300px;
