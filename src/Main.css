@@ -139,124 +139,6 @@
 
 }
 
-/* @media (min-width: 751px) and (max-width: 1200px) {
-  * {
-    color: #304865;
-  }
-
-  .main-img {
-    display: flex;
-    margin-top: 72px;
-  }
-
-  .mobile-main-img {
-    display: none;
-  }
-
-  .link-icons {
-    display: none;
-  }
-
-  .intro-box {
-    display: grid;
-    grid-template-columns: minmax(auto, 1fr) minmax(auto, 1fr);
-    align-items: center;
-    margin-left: min(200px, 100px);
-    margin-right: 100px;
-
-    height: 278px;
-  }
-
-  .IDASU {
-    font-family: 'TAEBAEKmilkyway';
-    font-size: 36px;
-    letter-spacing: 25px;
-  }
-
-  .intro {
-    font-family: 'HakgyoansimWoojuR';
-    font-size: 18px;
-    text-align: left;
-    line-height: 34px;
-    color: #494949;
-    min-width: 430px;
-    padding-left: 20px;
-  }
-
-  .gray-bar {
-    width: 100%;
-    height: 8px;
-    background-color: #FBFBFB;
-  }
-
-  .content {
-    padding-top: 180px;
-  }
-
-  .content-box {
-    display: flex;
-    margin-bottom: 120px;
-    margin-right: 120px;
-    align-items: flex-start;
-  }
-
-  .line {
-    width: 100%;
-    min-width: 50px;
-    max-width: 300px;
-    height: 1px;
-  
-    background-color: #304865;
-  }
-
-  .title {
-    font-size: 18px;
-    font-weight: bold;
-    text-align: center;
-    padding-left: 11px;
-  }
-
-  .content-title {
-    width: 380px;
-    display: flex;
-    align-items: center;
-  }
-
-  .blank {
-    width: 250px;
-    transition: width 0.5s ease-in-out;
-    background-color: #fff;
-  }
-
-  .contents {
-    width: 550px;
-    padding-top: 5px;
-    text-align: left;
-  }
-
-  .mail-icon {
-    width: 15px;
-    padding-right: 10px;
-  }
-
-  .sparkle-text {
-    padding-right: 10px;
-  }
-
-  p {
-    margin-top: 0;
-    margin-bottom: 12px;
-  }
-
-  .bold {
-    font-weight: bold;
-  }
-
-  .content-mail{
-    padding-top: 20px;
-  }
-
-} */
 
 @media only screen and (max-width: 768px) {
   Main {
@@ -290,7 +172,6 @@
     text-align: center;
     line-height: 28px;
     color: #494949;
-    min-width: 430px;
     margin-bottom: 80px;
   }
 
