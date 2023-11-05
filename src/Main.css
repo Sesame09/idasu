@@ -270,6 +270,7 @@
 
   .mobile-main-img {
     display: flex;
+    width: auto;
     margin-top: 72px;
     margin-bottom: 70px;
   }
