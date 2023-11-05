@@ -6,10 +6,6 @@
 }
 
 
-body {
-  font-family: 'HakgyoansimWoojuR';
-}
-
 @media (min-width: 769px) {
   .App {
     margin-left: 300px;
