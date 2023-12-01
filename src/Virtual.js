@@ -168,12 +168,12 @@ function Virtual() {
           <div className="subtitle-line"></div>
       </div>
       <div className="box">
-      <div className="step-box">
-        <img className='step' src={steps.step} alt="작업과정"/>
-        <img className='step-mobile' src={steps.stepMobile} alt="작업과정"/>
+        <div className="step-box">
+          <img className='step' src={steps.step} alt="작업과정"/>
+          <img className='step-mobile' src={steps.stepMobile} alt="작업과정"/>
+          <div className="step-p">※ 총 수정은 최대 5번이며 제 실수나 파츠 분리 수정에 한해서는 지원해 드립니다.</div>
         </div>
-        <p>※ 총 수정은 최대 5번이며 제 실수나 파츠 분리 수정에 한해서는 지원해 드립니다.</p>
-        </div>
+      </div>
 
 
       <div className="subtitle-box">

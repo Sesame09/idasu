@@ -21,7 +21,7 @@
   width: 100%;
 }
 
-@media (min-width: 769px) {
+@media (min-width: 1281px) {
   * {
     color: #304865;
   }
@@ -140,7 +140,7 @@
 }
 
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1280px) {
   Main {
     color: #304865;
     align-items: center;
